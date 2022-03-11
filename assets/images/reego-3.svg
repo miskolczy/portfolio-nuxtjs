@@ -1,0 +1,16 @@
+<svg width="6000" height="4000" viewBox="0 0 6000 4000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="6000" height="4000" fill="#677677"/>
+<rect x="3000" width="3000" height="4000" fill="#ECECEC"/>
+<rect y="4000" width="500" height="500" transform="rotate(-90 0 4000)" fill="black"/>
+<rect x="500" y="4000" width="500" height="500" transform="rotate(-90 500 4000)" fill="#2F3636"/>
+<rect x="1000" y="4000" width="500" height="500" transform="rotate(-90 1000 4000)" fill="#454F4F"/>
+<rect x="1500" y="4000" width="500" height="500" transform="rotate(-90 1500 4000)" fill="#596566"/>
+<rect x="2000" y="4000" width="500" height="500" transform="rotate(-90 2000 4000)" fill="#677677"/>
+<rect x="2500" y="4000" width="500" height="500" transform="rotate(-90 2500 4000)" fill="#818D8E"/>
+<rect x="3000" y="4000" width="500" height="500" transform="rotate(-90 3000 4000)" fill="#A2ABAB"/>
+<rect x="3500" y="4000" width="500" height="500" transform="rotate(-90 3500 4000)" fill="#BFC4C5"/>
+<rect x="4000" y="4000" width="500" height="500" transform="rotate(-90 4000 4000)" fill="#DBDDDD"/>
+<rect x="4500" y="4000" width="500" height="500" transform="rotate(-90 4500 4000)" fill="#ECECEC"/>
+<rect x="5000" y="4000" width="500" height="500" transform="rotate(-90 5000 4000)" fill="#FAFAFA"/>
+<rect x="5500" y="4000" width="500" height="500" transform="rotate(-90 5500 4000)" fill="white"/>
+</svg>
