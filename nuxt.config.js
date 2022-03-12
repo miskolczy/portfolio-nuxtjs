@@ -24,13 +24,13 @@ export default {
       { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: 'any' },
-      { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-      { rel: 'icon', sizes: '32x32', href: '/favicon-32x32.png' },
-      { rel: 'icon', sizes: '16x16', href: '/favicon-16x16.png' },
-      { rel: 'manifest', href: '/safari-pinned-tab.svg', color: '#6565ac' },
-      { rel: 'mask-icon', href: '/site.webmanifest' }
+      { rel: 'icon', type: 'image/x-icon', href: '/portfolio-nuxtjs/favicon.ico', sizes: 'any' },
+      { rel: 'icon', href: '/portfolio-nuxtjs/favicon.svg', type: 'image/svg+xml' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/portfolio-nuxtjs/apple-touch-icon.png' },
+      { rel: 'icon', sizes: '32x32', href: '/portfolio-nuxtjs/favicon-32x32.png' },
+      { rel: 'icon', sizes: '16x16', href: '/portfolio-nuxtjs/favicon-16x16.png' },
+      { rel: 'manifest', href: '/portfolio-nuxtjs/safari-pinned-tab.svg', color: '#6565ac' },
+      { rel: 'mask-icon', href: '/portfolio-nuxtjs/site.webmanifest' }
     ]
   },
 
