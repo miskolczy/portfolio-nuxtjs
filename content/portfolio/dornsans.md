@@ -13,6 +13,4 @@ gallery:
 
 ---
 
-The Display Typeface ‹Dorn Sans› is heavily inspired by handwriting with a pen on paper. Written with an upright holding of the pen  
-
-Die Akzidenzschrift ‹Dorn Sans› mit handschriftlichem Charakter ist vom Schreiben mit der Feder inspiriert. Die Schattenachse und die Bogenformen mit auslaufenden Enden, sorgen für ein breites dynamisches Schriftbild. Die rausragenden Enden der Buchstaben sind abgeschrägt und weisen scharfe Spitzen auf. Prof. Philipp Stamm leitete die schriftgestalterische Semesterarbeit.
+The Display Typeface ‹Dorn Sans›, is inspired by handwriting with a pen on paper, swiftly written with a slightly angled holding of the pen. This way of writing makes the Typeface appear wide and dynamic. The curvy ends of the letters are slanted and have sharp spikes like thorns. Furthermore the counters of the letters (e.g. bpdq) are asymmetrical and teardrop-shaped and can therefore appear floral. Professor Philipp Stamm as my mentor supervised this typographical project.
