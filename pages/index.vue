@@ -31,7 +31,7 @@
 
 
     <main id="works">
-                <div class="top title"><a href="#top" class="">JM</a></div>
+                <div class="top title"><a href="#top" class="uppercase">JM</a></div>
 
       <div class="project" :id="project.slug" v-for="(project, pIdx) of projects" :key="pIdx">
         <div class="title">
@@ -62,9 +62,9 @@
         <p>©</p>
       </address>
 
-                  <div class="title">
-        <a href="#"><span class="uppercase">linkedin.com/</span><wbr>in/miskolczy</a>
-        <a href="#"><span class="uppercase">medium.com/</span><wbr>@miskolczy</a>
+        <div class="title">
+        <a href="https://www.linkedin.com/in/miskolczy"><span class="uppercase">linkedin.com/</span><wbr>in/miskolczy</a>
+        <a href="https://medium.com/@miskolczy"><span class="uppercase">medium.com/</span><wbr>@miskolczy</a>
       </div>
     </footer>
     

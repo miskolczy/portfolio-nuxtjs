@@ -20,7 +20,7 @@ gallery:
   - buchtypografie-14.jpg
   - buchtypografie-15.jpg
   - buchtypografie-16.jpg
-  - buchtypografie-17.jpg
+
   - buchtypografie-18.jpg
   - buchtypografie-19.jpg
   - buchtypografie-20.jpg
