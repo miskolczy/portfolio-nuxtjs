@@ -34,7 +34,7 @@
 
 
     <main id="works">
-      <div class="top title"><a href="#top" class="uppercase">JM</a></div>
+      <div class="top title"><a href="#top">JM</a></div>
 
       <div class="project" :id="project.slug" v-for="(project, pIdx) of projects" :key="pIdx">
         <div class="title">
