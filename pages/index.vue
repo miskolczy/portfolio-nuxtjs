@@ -7,12 +7,15 @@
        <a href="#about"><h1><span>Jonathan</span><span>Miskolczy</span></h1></a>-->
           <!-- <a href="#about" class="title"><h1>Jonathan</h1><h1>Miskolczy</h1></a>
       </div>-->
-
+       <div class="title">
+        <a href="#works" class="uppercase">Works</a>
+        <a href="#contact" class="uppercase">Contact</a>
+      </div>
       <h1 class="uppercase headline logo">Miskolczy</h1>
       <div class="about justified-text">
         <p>Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
       </div>
-            <div class="gallery thumbnail custom-scrollbar"> 
+      <div class="gallery thumbnail custom-scrollbar"> 
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
           <figure>
             <img :src="require(`~/assets/images/${project.thumbnail}`)" :alt="project.alt" loading="lazy" width="2" height="3" />
@@ -21,17 +24,17 @@
         </nuxt-link>
       </div>
 
-      <h2 class="headline nav">
+      <!--<h2 class="headline nav">
         
         <a href="#works">Selected works</a>
         <br>& <a href="#contact">Contact<br>details</a>
-      </h2>
+      </h2>-->
     </header>
 
 
 
     <main id="works">
-                <div class="top title"><a href="#top" class="uppercase">JM</a></div>
+      <div class="top title"><a href="#top" class="uppercase">JM</a></div>
 
       <div class="project" :id="project.slug" v-for="(project, pIdx) of projects" :key="pIdx">
         <div class="title">
