@@ -35,8 +35,8 @@
 
       <div class="project" :id="project.slug" v-for="(project, pIdx) of projects" :key="pIdx">
         <div class="title">
-          <h3 class="uppercase">{{ project.category }}</h3>
-          <h4 class="uppercase">{{ project.title }}</h4>
+          <h3 class="uppercase">{{ project.title }}</h3>
+          <h4 class="uppercase">{{ project.category }}</h4>
         </div>
 
         <article>
