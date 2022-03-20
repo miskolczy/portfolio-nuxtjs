@@ -2,22 +2,25 @@
 
   <div>
 
-    <header id="top" class="intro">
+    <header id="miskolczy">
       <!--<div class="logo content uppercase">
        <a href="#about"><h1><span>Jonathan</span><span>Miskolczy</span></h1></a>-->
           <!-- <a href="#about" class="title"><h1>Jonathan</h1><h1>Miskolczy</h1></a>
       </div>-->
-       <div class="title">
-        <a href="#works" class="uppercase">Works</a>
-        <a href="#contact" class="uppercase">Contact</a>
-      </div>
-      <h1 class="uppercase headline logo">Miskolczy</h1>
-      <div class="about justified-text">
+
+      <h1 class="uppercase logo">Misk<wbr>ol<wbr>czy</h1>
+
+      <article class="intro justified-text">
         <p>Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
+   
+      </article>
+      <div class="intro chip chapter">
+        <a href="#works" class="intro">Works</a>
+        <a href="#contact" class="intro">Contact</a>
       </div>
-      <div class="gallery thumbnail custom-scrollbar"> 
+      <div id="works" class="intro gallery thumbnail"> 
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
-          <figure>
+          <figure class="intro">
             <img :src="require(`~/assets/images/${project.thumbnail}`)" :alt="project.alt" loading="lazy" width="2" height="3" />
             <figcaption class="uppercase"><p>{{ project.title }}</p></figcaption>
           </figure>
@@ -33,11 +36,11 @@
 
 
 
-    <main id="works">
-      <div class="top title"><a href="#top">JM</a></div>
+    <main>
+      <div class="chip m chapter"><a href="#miskolczy">M</a></div>
 
       <div class="project" :id="project.slug" v-for="(project, pIdx) of projects" :key="pIdx">
-        <div class="title">
+        <div class="chapter">
           <h3 class="uppercase">{{ project.title }}</h3>
           <h4 class="uppercase">{{ project.category }}</h4>
         </div>
@@ -45,7 +48,7 @@
         <article>
           <nuxt-content class="justified-text" :document="project" />
         </article>
-        <div class="gallery custom-scrollbar">    
+        <div class="gallery">    
           <img v-for="(image, Idx) in project.gallery" :key="Idx" :src="require(`~/assets/images/${image}`)" loading="lazy" />
         </div>
       </div>
@@ -54,8 +57,6 @@
     </main>
 
     <footer>
-
-      <h5 class="headline"><a href="#top">Back toTop</a></h5>
       <address id="contact">
         <h5 class="uppercase">Impressum</h5>
         <h6 class="uppercase">Concept, Design and Typeface<br>
@@ -65,9 +66,9 @@
         <p>©</p>
       </address>
 
-        <div class="title">
-        <a href="https://www.linkedin.com/in/miskolczy"><span class="uppercase">linkedin.com/</span><wbr>in/miskolczy</a>
-        <a href="https://medium.com/@miskolczy"><span class="uppercase">medium.com/</span><wbr>@miskolczy</a>
+        <div class="chip chapter">
+        <a href="https://www.linkedin.com/in/miskolczy" class="">LinkedIn</a>
+        <a href="https://medium.com/@miskolczy" class="">Medium</a>
       </div>
     </footer>
     
@@ -90,7 +91,7 @@ export default {
   
   methods: {
     variableWidthAxis() {
-      var column = document.getElementById("top");
+      var column = document.getElementById("miskolczy");
       var container = document.querySelector("body");
       const maxWidthAxis = 200;
       const minWidthAxis = 50;

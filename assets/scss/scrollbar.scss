@@ -1,88 +1,83 @@
 @media (hover: hover) {
-  .custom-scrollbar{
+  .gallery {
     --scrollbar-size: 1.8em;
 
     /* Turn on a scrollbar */
     &::-webkit-scrollbar {
-    width: var(--scrollbar-size);
-    height: var(--scrollbar-size);
-    /*box-shadow: inset 0px -0.5px var(--color-secondary);*/
-
+      width: var(--scrollbar-size);
+      height: var(--scrollbar-size);
+      /*box-shadow: inset 0px -0.5px var(--color-secondary);*/
     }
-    
+
     &::-webkit-scrollbar-button {
-        background-color: transparent;
+      background-color: transparent;
       &:hover {
         border: 1px solid var(--color-accent);
       }
     }
-    
+
     /* Turn on single button up on top, and down on bottom */
     &::-webkit-scrollbar-button:start:decrement,
     &::-webkit-scrollbar-button:end:increment {
       display: block;
     }
-    
+
     /* Turn off the down area up on top, and up area on bottom */
     &::-webkit-scrollbar-button:start:increment,
     &::-webkit-scrollbar-button:end:decrement {
       display: none;
     }
-    
+
     /* Place The scroll down button at the bottom */
-    &::-webkit-scrollbar-button{
+    &::-webkit-scrollbar-button {
       width: var(--scrollbar-size);
       height: var(--scrollbar-size);
       border-radius: calc(var(--scrollbar-size) / 2);
-
       &:increment {
-        background-image: url('~assets/images/right.svg');
+        background-image: url("~assets/images/right.svg");
         background-repeat: no-repeat;
         background-position: center;
       }
       &:decrement {
-        background-image: url('~assets/images/left.svg');
+        background-image: url("~assets/images/left.svg");
         background-repeat: no-repeat;
         background-position: center;
       }
     }
-    
-    &::-webkit-scrollbar-track {
-    background-color: transparent;
 
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
     }
-    
+
     /* Top area above thumb and below up button */
-    &::-webkit-scrollbar-track-piece{
+    &::-webkit-scrollbar-track-piece {
       &:start {
         background-color: transparent;
       }
-      &:end{
+      &:end {
         background-color: transparent;
       }
     }
 
-
     /* The thumb itself */
     &::-webkit-scrollbar-thumb {
-    /*background-color: var(--color-secondary);*/
-    background-color: transparent;
-    border-radius: calc(var(--scrollbar-size) / 2);
-    border: 1px solid var(--color-primary);
-    /*background: linear-gradient(180deg, var(--color-bg-transparent), var(--color-bg));*/
-
+      /*background-color: var(--color-secondary);*/
+      background-color: transparent;
+      border-radius: calc(var(--scrollbar-size) / 2);
+      border: 1px solid var(--color-primary);
+      /*background: linear-gradient(180deg, var(--color-bg-transparent), var(--color-bg));*/
       &:hover {
         border: 1px solid var(--color-accent);
-      /*background-color: var(--color-accent);*/
-      background-color: transparent;
+        /*background-color: var(--color-accent);*/
+        background-color: transparent;
       }
     }
-    
+
     /* Corner */
     &::-webkit-scrollbar-corner {
       display: none;
     }
-    
+
     /* Resizer */
     &::-webkit-scrollbar-resizer {
       display: none;

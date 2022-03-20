@@ -5,19 +5,13 @@
   font-stretch: 50% 200%;
 }
 
-@font-face {
-  font-family: 'DornSans';
-  src:  url('~assets/fonts/DornSans-Regular.woff2') format('woff2'),
-        url('~assets/fonts/DornSans-Regular.woff') format('woff');
-}
-
 body{
   font-family: "Dorn", system-ui;
   font-size: clamp(1rem, calc(0.5rem + 1vw), 2rem); /* 800 – 2400px */
-  font-weight: 400;
+  /*font-weight: 400;*/
   line-height: 140%;
 
-  font-variation-settings: "wdth" var(--width-axis);
+  font-variation-settings: "wdth" var(--width-axis), "wght" 400;
   font-optical-sizing: auto;
 
   -moz-font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 1;
@@ -41,13 +35,25 @@ body{
 }
 
 a{
-  color: inherit;
-  text-decoration: none;
-  transition: color 0.2s;
-  &:hover {
-    color: var(--color-accent);
+  transition: all 0.2s;
+  color: var(--color-accent);
+  text-decoration-line: none;
+  &:hover{
+    font-variation-settings: "wdth" 200, "wght" 700;
+    color: var(--color-primary);
   }
 }
+/*
+main article a{
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-secondary);
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+  &:hover{
+    text-decoration-color: var(--color-accent);
+  }
+}*/
 
 
 .justified-text{
@@ -57,24 +63,12 @@ a{
   hyphens: auto;
   max-width: 60ch;
   padding: 0 2ch;
+  margin-bottom: 1em;
   & p{
     margin-block: 0;
   + p {
     text-indent: 4ch;
   }
-}
-
-  & a {
-    color: var(--color-accent);
-    text-decoration-line: underline;
-    text-decoration-color: var(--color-secondary);
-    text-decoration-skip-ink: none;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.14em;
-    &:hover{
-      color: var(--color-primary);
-      text-decoration-color: var(--color-accent);
-    }
   }
 }
 article .justified-text{
@@ -91,9 +85,8 @@ figcaption.uppercase{
   letter-spacing: 0.22em;
 }
 
-
+/*
 .headline{
-  font-family: "DornSans";
   margin: auto;
   text-align: center;
   font-size: clamp(2.5rem, calc(-0.7500rem + 6.5000vw), 9rem);
@@ -103,11 +96,13 @@ figcaption.uppercase{
   margin-block: 0;
   letter-spacing: -0.01em;
   mix-blend-mode: difference;
-}
+}*/
 
+
+/*
 .headline.nav{
-/*mix-blend-mode: difference;*/
+mix-blend-mode: difference;
 text-indent: 3ch;
-  }
+  }*/
 
 
