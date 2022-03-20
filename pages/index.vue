@@ -8,15 +8,15 @@
           <!-- <a href="#about" class="title"><h1>Jonathan</h1><h1>Miskolczy</h1></a>
       </div>-->
 
-      <h1 class="uppercase logo">Misk<wbr>ol<wbr>czy</h1>
+      <h1 class="uppercase logo">Miskolczy</h1>
 
       <article class="intro justified-text">
         <p>Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
    
       </article>
       <div class="intro chip chapter">
-        <a href="#works" class="intro">Works</a>
-        <a href="#contact" class="intro">Contact</a>
+        <a href="#works" class="intro">Selected works</a>
+        <a href="#contact" class="intro">Contact details</a>
       </div>
       <div id="works" class="intro gallery thumbnail"> 
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
@@ -67,8 +67,8 @@
       </address>
 
         <div class="chip chapter">
-        <a href="https://www.linkedin.com/in/miskolczy" class="">LinkedIn</a>
-        <a href="https://medium.com/@miskolczy" class="">Medium</a>
+        <a href="https://www.linkedin.com/in/miskolczy">LinkedIn</a>
+        <a href="https://medium.com/@miskolczy">Medium</a>
       </div>
     </footer>
     

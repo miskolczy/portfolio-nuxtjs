@@ -15,7 +15,7 @@
   --color-bg: #000000;
   --color-bg-transparent: #00000000;
 
-  /*--gradient-intro: linear-gradient(180deg,#0A0A32 0%, #050528 30%, #000014 70%, #000000 95%);*/
+ /* --gradient-intro: linear-gradient(180deg,#0A0A32 0%, #050528 30%, #000014 70%, #000000 95%);*/
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -144,9 +144,16 @@ main article {
   }
 }
 
-header article{
+header article p{
     text-align-last: center;
 
+}
+
+@supports not (text-align-last: center) {
+  header article p{
+    text-align: center;
+    hyphens: none;
+  }
 }
 
 .gallery {
@@ -208,6 +215,8 @@ footer {
 }
 
 address {
+  pointer-events: none;
+
   text-align: center;
   font-style: normal;
   & > * {

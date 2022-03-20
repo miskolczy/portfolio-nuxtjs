@@ -6,22 +6,20 @@ header {
   justify-content: flex-start;
   gap: 0vmin;
 
-  background-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, #1a1a1a 40%, #131313 60%, #000000 100%);
+  background-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, #000014 10%, #1a1a24 60%, #000014 80%, #000000 100%);
   background-position: 100% 100%;
   background-size: 100% 100%;
   &::after {
     content: "";
     width: 100%;
     height: 50vmin;
-    background: linear-gradient(180deg, var(--color-bg-transparent), var(--color-bg) 60%);
+    background: linear-gradient(180deg, var(--color-bg-transparent) 0%, var(--color-bg) 70%);
     pointer-events: none;
     z-index: 1;
   }
 }
 
 .logo {
-  font-variation-settings: "wdth" 50, "wght" 400;
-
   text-align: center;
   margin-block: 40vmin 10vmin;
   position: sticky;
@@ -29,7 +27,7 @@ header {
   /*mix-blend-mode: color-dodge;*/
   /*filter: brightness(200%);*/
   pointer-events: none;
-  /*mix-blend-mode: difference;*/
+  mix-blend-mode: difference;
 
   animation-name: str-animation;
   animation-direction: alternate;
@@ -108,10 +106,11 @@ header {
   from {
     opacity: 0;
     color: var(--color-secondary);
+    font-variation-settings: "wdth" 50, "wght" 400;
+
   }
   to {
     opacity: 1;
-
     font-variation-settings: "wdth" var(--width-axis), "wght" 700;
   }
 }

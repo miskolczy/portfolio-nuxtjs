@@ -21,7 +21,13 @@ export default {
       { name: 'msapplication-TileColor', content: '#6565ac' },
       { name: 'theme-color', content: '#000000' },
       { hid: 'author', name: 'author', content: 'Jonathan Miskolczy' },
-      { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' }
+      { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
+      { property: 'og:title', content: 'Jonathan Miskolczy – Portfolio' },
+      { property: 'og:description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'miskolczy.net' },
+      { property: 'og:image', content: '/portfolio-nuxtjs/link.jpg' },
+      { name: 'twitter:card', content: '/portfolio-nuxtjs/link.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/portfolio-nuxtjs/favicon.ico', sizes: 'any' },
