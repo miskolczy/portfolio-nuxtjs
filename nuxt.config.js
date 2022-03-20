@@ -26,8 +26,9 @@ export default {
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Jonathan Miskolczy – Portfolio' },
       { property: 'og:description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
-      { property: 'og:image', content: '/portfolio-nuxtjs/link.jpg' },
-      { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' }
+      { property: 'og:image', content: 'portfolio-nuxtjs/open-graph.jpg' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:image:alt', content: 'Wordmark – Miskolczy' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/portfolio-nuxtjs/favicon.ico', sizes: 'any' },
