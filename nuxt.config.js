@@ -27,7 +27,7 @@ export default {
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'miskolczy.net' },
       { property: 'og:image', content: '/portfolio-nuxtjs/link.jpg' },
-      { name: 'twitter:card', content: '/portfolio-nuxtjs/link.jpg' }
+      { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/portfolio-nuxtjs/favicon.ico', sizes: 'any' },
