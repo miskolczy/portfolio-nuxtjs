@@ -11,8 +11,7 @@
       <h1 class="uppercase logo">Miskolczy</h1>
 
       <article class="intro justified-text">
-        <p>Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
-   
+        <p>Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
       </article>
       <div class="intro chip chapter">
         <a href="#works" class="intro">Selected works</a>

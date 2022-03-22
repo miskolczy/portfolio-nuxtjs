@@ -27,4 +27,4 @@ gallery:
 
 
 ---
-Within the framework of my typographical book design lessons I tried to grapple with five of fourteen short stories of the book ‹Decisive Moments in History› written by Stefan Zweig. His methaphorical and playful way of writing fascinated me a lot while reading. In order to connect this unique style of writing with my design I decided to inhibit the reader from consuming the text rapidly and therefore inspire to linger and contemplate. 
+Within my typographical book design lessons, I tried to grapple with five of fourteen short stories of the book ‹Decisive Moments in History› written by Stefan Zweig. His metaphorical and playful way of writing fascinated me a lot while reading. I was thinking that in order to connect his unique style of writing with my design, I would have to inhibit the reader from consuming the text too rapidly and therefore inspire the reader to contemplate and linger.

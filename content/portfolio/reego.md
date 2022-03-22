@@ -17,4 +17,4 @@ gallery:
   - reego-11.svg
   - reego-12.jpg
 ---
-At the formation of the start-up reego I was commissioned to develop a logo. Reego is a vehicle dealership that offers to rent, sell and purchase electric cars. In a briefing with reego we settled on attributes like ‹revolutionary› and ‹dynamic› and focused heavily on the functionality of the logo itself. Complementary to the logo I was asked to design an additional app-icon and a colour scheme for the app.
+At the formation of the start-up reego I was commissioned to develop a logo. Reego is a vehicle dealership that offers to rent, sell and purchase electric cars. In a briefing with reego we settled on attributes like ‹revolutionary› and ‹dynamic› and focused heavily on the functionality of the logo itself. Complementary to the logo, I was asked to design an additional app-icon and a colour scheme for the app.

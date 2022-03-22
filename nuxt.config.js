@@ -18,11 +18,11 @@ export default {
       { name: 'msapplication-TileColor', content: '#6565ac' },
       { name: 'theme-color', content: '#000000' },
       { hid: 'author', name: 'author', content: 'Jonathan Miskolczy' },
-      { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
+      { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
       { property: 'og:url', content: 'https://miskolczy.net/' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Jonathan Miskolczy – Portfolio' },
-      { property: 'og:description', content: 'Hello, my name is Jonathan Miskolczy, I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
+      { property: 'og:description', content: 'Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
       { property: 'og:image', content: 'https://miskolczy.net/open-graph.jpg' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:image:alt', content: 'Wordmark – Miskolczy' }

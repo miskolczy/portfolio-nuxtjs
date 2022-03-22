@@ -30,4 +30,4 @@ gallery:
   
 
 ---
-In the movie ‹Coffee and Cigarettes› by Jim Jarmusch the ‹dialogue› takes up an important role. I created a book for the movie in which the script and scenes of the movie come together in a dialogue. In spoken dialogues the text takes the lead, in silent moments the image does. Exact time references of the scenes serve the reader to navigate between text and visual world.
+In the movie ‹Coffee and Cigarettes› by Jim Jarmusch ‹dialogue› takes up an important role. I created a book based on the movie in which the script and scenes of the movie come together in a dialogue. In spoken dialogues the text takes the lead, in silent moments the image does. Exact time references of the scenes serve the reader to navigate between text and visual world.
