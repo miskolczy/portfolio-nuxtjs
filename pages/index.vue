@@ -58,7 +58,7 @@
     <footer>
       <address id="contact">
         <h5 class="uppercase">Impressum</h5>
-        <h6 class="uppercase">Concept, Design and Typeface<br>
+        <h6 class="uppercase">Concept, Design and Typeface (Dorn)<br>
         Jonathan Miskolczy</h6>
         <p>Leopoldstraße 9, 79576 Weil a. Rhein<br>
         mail@miskolczy.net</p>
