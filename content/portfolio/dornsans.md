@@ -6,9 +6,10 @@ thumbnail: thumbnail-dornsans.jpg
 gallery:
   - dornsans-1.jpg
   - dornsans-2.svg
-  - dornsans-3.svg
+  - dornsans-3.jpg
   - dornsans-4.svg
   - dornsans-5.svg
+  - dornsans-6.svg
 
 
 ---
