@@ -70,6 +70,10 @@ main article a{
   + p {
     text-indent: 4ch;
   }
+  & small{
+    font-size: 0.8em;
+    letter-spacing: 0.04em;
+  }
   }
 }
 article .justified-text{

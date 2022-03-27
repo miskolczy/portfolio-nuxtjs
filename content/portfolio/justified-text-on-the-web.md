@@ -4,8 +4,8 @@ title: Justified text on the web
 category: Type Design
 thumbnail: thumbnail-dorn.jpg
 gallery:
-  - dorn-1.jpg
-  - dorn-2.jpg
+  - dorn-1.gif
+  - dorn-2.gif
   - dorn-3.jpg
   - dorn-4.jpg
   - dorn-5.jpg
