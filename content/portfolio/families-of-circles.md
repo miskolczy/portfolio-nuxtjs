@@ -17,4 +17,4 @@ gallery:
   - families-of-circles-11.jpg
   - families-of-circles-12.jpg
 ---
-Based on the computer-generated artwork 'Families of Circles I' by Aron Warszawski in 1972, I have developed an audio visualization. The visualization was programmed in Javascript and the library p5.js. In the process of recreation, the desire to capture movement and return to the static image emerged. Therefore I decided to photograph my screen with long exposure time.
+Based on the computer-generated artwork ‹Families of Circles I› by Aron Warszawski in 1972, I have developed an audio visualization. The visualization was programmed in Javascript and the library p5.js. In the process of recreation, the desire to capture movement and return to the static image emerged. Therefore I decided to photograph my screen with long exposure time.
