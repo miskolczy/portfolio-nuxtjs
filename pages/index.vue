@@ -27,7 +27,6 @@
       </div>
 
       <!--<h2 class="headline nav">
-        
         <a href="#works">Selected works</a>
         <br>& <a href="#contact">Contact<br>details</a>
       </h2>-->
@@ -56,6 +55,8 @@
     </main>
 
     <footer>
+      
+      <img :src="require(`~/assets/images/portrait.jpg`)" alt="Jonathan Miskolczy" loading="lazy" width="3" height="2" />
       <address id="contact">
         <h5 class="uppercase">Impressum</h5>
         <h6 class="uppercase">Concept, Design and Typeface (Dorn)<br>
