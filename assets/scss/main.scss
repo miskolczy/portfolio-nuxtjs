@@ -222,13 +222,13 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 10vh;
-  margin-top: 10vh;
   & img{
     border-radius: 1em;
-    height: 40vmin;
+    height: 35vmin;
     max-height: 480px;
     width: auto;
-    margin: auto auto 0;
+    margin: 10vh auto 0;
+    box-shadow: insetvar(--color-accent) 0 0 0 4px,
   }
 }
 

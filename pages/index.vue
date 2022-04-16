@@ -20,7 +20,7 @@
       <div id="works" class="intro gallery thumbnail"> 
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
           <figure class="intro">
-            <img :src="require(`~/assets/images/${project.thumbnail}`)" :alt="project.alt" loading="lazy" width="2" height="3" />
+            <img :src="require(`~/assets/images/${project.thumbnail}`)" :alt="'Thumbnail '+project.title" loading="lazy" width="2" height="3" />
             <figcaption class="uppercase"><p>{{ project.title }}</p></figcaption>
           </figure>
         </nuxt-link>
@@ -47,7 +47,7 @@
           <nuxt-content class="justified-text" :document="project" />
         </article>
         <div class="gallery">    
-          <img v-for="(image, Idx) in project.gallery" :key="Idx" :src="require(`~/assets/images/${image}`)" loading="lazy" />
+          <img v-for="(image, Idx) in project.gallery" :key="Idx" :src="require(`~/assets/images/${image.url}`)" :alt="'Gallery '+image.alt" loading="lazy" />
         </div>
       </div>
 
@@ -56,7 +56,7 @@
 
     <footer>
       
-      <img :src="require(`~/assets/images/portrait.jpg`)" alt="Jonathan Miskolczy" loading="lazy" width="3" height="2" />
+      <img :src="require(`~/assets/images/portrait.jpg`)" alt="Portrait of Jonathan Miskolczy" loading="lazy" width="3" height="2" />
       <address id="contact">
         <h5 class="uppercase">Impressum</h5>
         <h6 class="uppercase">Concept, Design and Typeface (Dorn)<br>
