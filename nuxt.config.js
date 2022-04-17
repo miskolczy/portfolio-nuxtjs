@@ -15,7 +15,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
-      { name: 'msapplication-TileColor', content: '#6565ac' },
+      { name: 'apple-mobile-web-app-title', content: 'MISKOLCZY' },
+      { name: 'mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
       { name: 'theme-color', content: '#000000' },
       { hid: 'author', name: 'author', content: 'Jonathan Miskolczy' },
       { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
@@ -33,8 +36,7 @@ export default {
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'icon', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', sizes: '16x16', href: '/favicon-16x16.png' },
-      { rel: 'manifest', href: '/safari-pinned-tab.svg', color: '#6565ac' },
-      { rel: 'mask-icon', href: '/site.webmanifest' }
+      { rel: 'manifest', href: '/site.webmanifest' }
     ]
   },
 
