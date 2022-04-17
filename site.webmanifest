@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Jonathan Miskolczy – Portfolio, Selected works & Contact details",
+    "short_name": "M",
+    "description": "Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,5 +16,6 @@
     ],
     "theme_color": "#000000",
     "background_color": "#000000",
-    "display": "standalone"
+    "display": "standalone",
+    "lang": "en"
 }
