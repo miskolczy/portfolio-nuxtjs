@@ -13,10 +13,10 @@
       <article class="intro justified-text">
         <p>Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
       </article>
-      <div class="intro chip chapter">
+      <h2 class="intro chip chapter">
         <a href="#works" class="intro">Selected works</a>
         <a href="#contact" class="intro">Contact details</a>
-      </div>
+      </h2>
       <div id="works" class="intro gallery thumbnail"> 
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
           <figure class="intro">
