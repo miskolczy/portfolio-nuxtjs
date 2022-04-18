@@ -15,13 +15,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
-      { name: 'apple-mobile-web-app-title', content: 'MISKOLCZY' },
       { name: 'mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
       { name: 'theme-color', content: '#000000' },
-      { hid: 'author', name: 'author', content: 'Jonathan Miskolczy' },
-      { hid: 'description', name: 'description', content: 'Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
+      { name: 'author', content: 'Jonathan Miskolczy' },
+      { name: 'description', content: 'Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the FHNW HGK in Basel, Switzerland. I have studied visual communication with deeper focus on typography.' },
       { property: 'og:url', content: 'https://miskolczy.net/' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Jonathan Miskolczy – Portfolio' },
@@ -33,6 +32,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: 'any' },
       { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+      { rel: 'mask-icon', href: '/favicon.svg', color: '#8589ff' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'icon', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', sizes: '16x16', href: '/favicon-16x16.png' },
