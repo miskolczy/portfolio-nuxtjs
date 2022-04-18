@@ -3,20 +3,17 @@
   <div>
 
     <header id="miskolczy">
-      <!--<div class="logo content uppercase">
-       <a href="#about"><h1><span>Jonathan</span><span>Miskolczy</span></h1></a>-->
-          <!-- <a href="#about" class="title"><h1>Jonathan</h1><h1>Miskolczy</h1></a>
-      </div>-->
-
       <h1 class="uppercase logo">Miskolczy</h1>
 
       <article class="intro justified-text">
         <p>Hello, my name is Jonathan Miskolczy. I am a former Bachelor of Arts student at the <span class="uppercase">FHNW HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography.</p>
       </article>
+
       <h2 class="intro chip chapter">
         <a href="#works" class="intro">Selected works</a>
         <a href="#contact" class="intro">Contact details</a>
       </h2>
+
       <div id="works" class="intro gallery thumbnail"> 
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
           <figure class="intro">
@@ -25,13 +22,7 @@
           </figure>
         </nuxt-link>
       </div>
-
-      <!--<h2 class="headline nav">
-        <a href="#works">Selected works</a>
-        <br>& <a href="#contact">Contact<br>details</a>
-      </h2>-->
     </header>
-
 
 
     <main>
@@ -50,13 +41,12 @@
           <img v-for="(image, Idx) in project.gallery" :key="Idx" :src="require(`~/assets/images/${image.url}`)" :alt="'Gallery '+image.alt" loading="lazy" />
         </div>
       </div>
-
-
     </main>
 
+
     <footer>
-      
       <img :src="require(`~/assets/images/portrait.jpg`)" alt="Portrait of Jonathan Miskolczy" loading="lazy" width="3" height="2" />
+     
       <address id="contact">
         <h5 class="uppercase">Impressum</h5>
         <h6 class="uppercase">Concept, Design and Typeface (Dorn)<br>

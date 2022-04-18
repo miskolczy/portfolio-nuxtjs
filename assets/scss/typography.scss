@@ -35,8 +35,9 @@ body{
   -webkit-tap-highlight-color: transparent;
 }
 
-h2{
+h2.chip{
   font-size: 1em;
+  margin-block: 0;
 }
 
 a{
