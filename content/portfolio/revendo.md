@@ -20,5 +20,7 @@ gallery:
     alt: Revendo icon apple watch detail view
   - url: revendo-8.jpg
     alt: Revendo pullover with Revendo lettering
+  - url: revendo-9.jpg
+    alt: Revendo namecard detail view
 ---
 Revendo aims to enable sustainable usage and longevity of devices, by refurbishing and repairing them. Since the start-up’s founding in 2013, it has been experiencing great development in various disciplines. This also includes its tremendous growth in Switzerland and its expansion into the European Union in 2020. Revendo confidently embraces these changes and wants to carry them into the world. Therefore, and under my direction, the rebranding and development of the new corporate identity for Revendo took place.
