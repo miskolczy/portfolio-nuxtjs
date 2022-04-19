@@ -161,20 +161,6 @@ header article p{
   }
 }
 
-.gallery {
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  cursor: crosshair;
-  & img {
-    height: 65vmin;
-    max-height: 720px;
-    width: auto;
-    vertical-align: bottom;
-    user-select: none;
-    pointer-events: none;
-  }
-}
 
 .thumbnail {
   display: flex;
@@ -187,9 +173,8 @@ header article p{
     margin-inline: 0;
     margin-block: 0;
     & img {
-      background-color: #000000;
-
       height: 65vh;
+      background-color: #000000;
       transition: all 0.5s;
       border-radius: 1em;
       box-shadow: var(--color-bg-transparent) 0 0 0 0px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
@@ -210,6 +195,22 @@ header article p{
   }
 }
 
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  //white-space: nowrap;
+  cursor: crosshair;
+  & img {
+    height: 65vmin;
+    width: auto;
+    max-height: 720px;
+    vertical-align: bottom;
+    user-select: none;
+    pointer-events: none;
+  }
+}
 
 
 footer {
