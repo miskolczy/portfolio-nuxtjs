@@ -18,7 +18,9 @@
         <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
           <figure class="intro">
             <img :src="require(`~/assets/images/${project.thumbnail}`)" :alt="'Thumbnail '+project.title" loading="lazy" width="2" height="3" />
-            <figcaption class="uppercase"><p>{{ project.title }}</p></figcaption>
+            <figcaption>
+             <!-- <p class="uppercase">{{ project.title }}</p>-->
+            </figcaption>
           </figure>
         </nuxt-link>
       </div>
