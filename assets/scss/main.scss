@@ -7,7 +7,7 @@
   --color-primary: #e6e6fa;
   /*--color-secondary: #6565ac;*/
 
-  --color-accent: #8589ff;
+  --color-accent: #66666f;
 
   --text-blendmode: difference;
 
@@ -117,10 +117,10 @@ footer .chapter {
     text-align: center;
     border-radius: 2em;
     background-color: var(--color-primary);
-    box-shadow: inset 0px 0px 2px #FFFFFF, inset 0px 2px 2px 1px #FFFFFF, inset 0px -12px 24px -12px #8589FF;
+    /*box-shadow: inset 0px 0px 2px #FFFFFF, inset 0px 2px 2px 1px #FFFFFF, inset 0px -12px 24px -12px #8589FF;
     &:hover{
       box-shadow: inset 0px 0px 22px #FFFFFF, inset 0px 2px 8px 1px #FFFFFF, inset 0px -12px 24px -2px #8589FF;
-    }
+    }*/
 }
 }
 
@@ -174,16 +174,16 @@ header article p{
     margin-inline: 0;
     margin-block: 0;
     & img {
-      height: 65vh;
+      height: 60vh;
       background-color: #000000;
       transition: all 0.5s;
       border-radius: 1em;
-      box-shadow: var(--color-bg-transparent) 0 0 0 0px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
+      box-shadow:  hsla(0, 0%, 100%, 0.1) 0 -1px 0 0px, var(--color-bg-transparent) 0 0 0 0px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
         hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;
     }
     &:hover img{
     border-radius: 1.4em;
-    box-shadow: var(--color-accent) 0 0 0 4px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
+    box-shadow: var(--color-accent) 0 -1px 0 0, var(--color-bg) 0 0 0 1px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
     hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;
     }
   }

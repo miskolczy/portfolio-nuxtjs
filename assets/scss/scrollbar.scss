@@ -61,15 +61,12 @@
 
     /* The thumb itself */
     &::-webkit-scrollbar-thumb {
-      /*background-color: var(--color-secondary);*/
-      background-color: transparent;
+      width: 50px;
+      background-color: var(--color-accent);
       border-radius: calc(var(--scrollbar-size) / 2);
-      border: 1px solid var(--color-primary);
-      /*background: linear-gradient(180deg, var(--color-bg-transparent), var(--color-bg));*/
+      border: 0.7em solid var(--color-bg);
       &:hover {
-        border: 1px solid var(--color-accent);
-        /*background-color: var(--color-accent);*/
-        background-color: transparent;
+        background-color: var(--color-primary);
       }
     }
 
