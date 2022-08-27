@@ -227,10 +227,10 @@ footer {
   gap: 10vh;
   & img{
     border-radius: 1em;
-    height: 35vmin;
-    max-height: 480px;
+    height: 60vh;
+    max-height: 720px;
     width: auto;
-    margin: 10vh auto 0;
+    margin: 25vmin auto 0;
     box-shadow: insetvar(--color-accent) 0 0 0 4px,
   }
 }
