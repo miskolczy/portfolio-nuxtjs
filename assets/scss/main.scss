@@ -178,13 +178,15 @@ header article p{
       background-color: #000000;
       transition: all 0.5s;
       border-radius: 1em;
-      box-shadow: hsla(0, 0%, 100%, 0.1) 0 -1px 0 0px, var(--color-bg-transparent) 0 0 0 0, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
-        hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;
+      /*box-shadow: hsla(0, 0%, 100%, 0.1) 0 -1px 0 0px, var(--color-bg-transparent) 0 0 0 0, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
+        hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;*/
+      box-shadow: hsla(0, 0%, 100%, 0.15) 0 -1px 0 0px;
     }
     &:hover img{
     border-radius: 1.4em;
-    box-shadow: var(--color-primary) 0 -0.5px 1px 0, var(--color-accent) 0 0 0 1px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
-    hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;
+    /*box-shadow: var(--color-primary) 0 -0.5px 1px 0, var(--color-accent) 0 0 0 1px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
+    hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;*/
+    box-shadow: var(--color-primary) 0 0px 0 1px;
     }
   }
   /*& figcaption {

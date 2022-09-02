@@ -36,6 +36,7 @@ gallery:
     alt: Refugium book at the exhibition with projection
 ---
 For my contribution to the summer project exhibition of the <span class="uppercase">FHNW HGK</span> in 2020 I went ahead with a photographic analysis of the Latin term ‹refugium›. I made a photobook with analog photographs, with which I wanted to show that within a shelter, space plays a very important role. However, for this project I needed to create another dimension. I therefore designed a three-dimensional photograph series that was projected directly onto the photobook. What inspired me to go for this kind of approach was a quote from Sir Edward Coke: ‹domus sua cuique est tutissimum refugium›*. This particular quote describes a house as a sanctuary.
+You can watch the raw material of the projection in the [p5.js Editor](https://editor.p5js.org/refugium/full/8H2PxMUyP "").
 
 <br>
 
