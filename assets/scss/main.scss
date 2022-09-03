@@ -57,9 +57,11 @@ body {
   margin: 0;
 }
 
-
-.project{
-  margin-top: 50vh;
+.project {
+  margin-top: 2ch;
+  + .project {
+    margin-top: 50vh;
+  }
 }
 
 .chapter {
