@@ -15,6 +15,6 @@ gallery:
   - url: one-for-all-5.jpg
     alt: One for all Revendo packaging
   - url: one-for-all-6.jpg
-    alt: One for all Revendo packaging detail view
+    alt: One for all Revendo packaging
 ---
 In collaboration with Fischer Papier AG, Revendo has developed a universal packaging for all current smartphones that are sold. With the new packaging design, Revendo strives to lower shipping costs, reduce unused space and improve handling-processes for employees as well as unboxing-experiences for customers.
