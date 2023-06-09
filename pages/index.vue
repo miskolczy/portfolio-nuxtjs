@@ -53,7 +53,7 @@
         <h5 class="uppercase">Impressum</h5>
         <h6 class="uppercase">Concept, Design and Typeface (Dorn)<br>
         Jonathan Miskolczy</h6>
-        <p>mail@miskolczy.net</p>
+        <p>mail@miskolczy.com</p>
         <p>©</p>
       </address>
 
