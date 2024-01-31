@@ -181,10 +181,11 @@ header article p{
       border-radius: 1em;
       /*box-shadow: hsla(0, 0%, 100%, 0.1) 0 -1px 0 0px, var(--color-bg-transparent) 0 0 0 0, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
         hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;*/
-      box-shadow: hsla(0, 0%, 100%, 0.15) 0 -1px 0 0px;
+      background-color: var(--color-bg);
+      box-shadow: var(--color-accent) 0 -0.5px 0 0.5px;
     }
     &:hover img{
-    border-radius: 1.4em;
+    border-radius: 1.5em;
     /*box-shadow: var(--color-primary) 0 -0.5px 1px 0, var(--color-accent) 0 0 0 1px, hsla(0, 0%, 0%, 0.5) 0px 2em 2em,
     hsla(0, 0%, 0%, 0.3) 0px 0.5em 1em;*/
     box-shadow: var(--color-primary) 0 0px 0 1px;
@@ -238,7 +239,7 @@ footer {
     max-height: 720px;
     width: auto;
     margin: 25vmin auto 0;
-    box-shadow: insetvar(--color-accent) 0 0 0 4px,
+    /*box-shadow: insetvar(--color-accent) 0 0 0 4px,*/
   }
 }
 
