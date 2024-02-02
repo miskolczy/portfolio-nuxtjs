@@ -8,7 +8,6 @@
 body{
   font-family: "Dorn", system-ui;
   font-size: clamp(1rem, calc(0.5rem + 1vw), 2rem); /* 800 – 2400px */
-  /*font-weight: 400;*/
   line-height: 140%;
 
   font-variation-settings: "wdth" var(--width-axis), "wght" 400;
@@ -49,18 +48,6 @@ a{
     color: var(--color-primary);
   }
 }
-/*
-main article a{
-  text-decoration-line: underline;
-  text-decoration-color: var(--color-secondary);
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.14em;
-  &:hover{
-    text-decoration-color: var(--color-accent);
-  }
-}*/
-
 
 .justified-text{
   text-align: justify;
@@ -81,6 +68,7 @@ main article a{
   }
   }
 }
+
 article .justified-text{
   padding-bottom: 25vmin;
 
@@ -94,25 +82,3 @@ article .justified-text{
 figcaption.uppercase{
   letter-spacing: 0.22em;
 }
-
-/*
-.headline{
-  margin: auto;
-  text-align: center;
-  font-size: clamp(2.5rem, calc(-0.7500rem + 6.5000vw), 9rem);
-  font-size: 11.2vw;
-  line-height: 100%;
-  font-weight: 400;
-  margin-block: 0;
-  letter-spacing: -0.01em;
-  mix-blend-mode: difference;
-}*/
-
-
-/*
-.headline.nav{
-mix-blend-mode: difference;
-text-indent: 3ch;
-  }*/
-
-

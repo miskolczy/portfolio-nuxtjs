@@ -14,15 +14,12 @@
         <a href="#contact" class="intro">Contact details</a>
       </h2>
 
-      <div id="works" class="intro gallery thumbnail"> 
-        <nuxt-link v-for="(project, pIdx) of projects" :key="pIdx" :to="'#'+project.slug" exact>
+      <div id="works" class="intro gallery thumbnail">
+        <a v-for="(project, pIdx) of projects" :key="pIdx" :href="'#'+project.slug">
           <figure class="intro">
             <img :src="require(`~/assets/images/${project.thumbnail}`)" :alt="'Thumbnail '+project.title" loading="lazy" width="2" height="3" />
-            <figcaption>
-             <!-- <p class="uppercase">{{ project.title }}</p>-->
-            </figcaption>
           </figure>
-        </nuxt-link>
+        </a>
       </div>
     </header>
 

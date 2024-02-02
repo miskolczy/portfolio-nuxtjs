@@ -2,11 +2,9 @@
   .gallery {
     --scrollbar-size: 1.8em;
 
-    /* Turn on a scrollbar */
     &::-webkit-scrollbar {
       width: var(--scrollbar-size);
       height: var(--scrollbar-size);
-      /*box-shadow: inset 0px -0.5px var(--color-secondary);*/
     }
 
     &::-webkit-scrollbar-button {
@@ -16,19 +14,16 @@
       }
     }
 
-    /* Turn on single button up on top, and down on bottom */
     &::-webkit-scrollbar-button:start:decrement,
     &::-webkit-scrollbar-button:end:increment {
       display: block;
     }
 
-    /* Turn off the down area up on top, and up area on bottom */
     &::-webkit-scrollbar-button:start:increment,
     &::-webkit-scrollbar-button:end:decrement {
       display: none;
     }
 
-    /* Place The scroll down button at the bottom */
     &::-webkit-scrollbar-button {
       width: var(--scrollbar-size);
       height: var(--scrollbar-size);
@@ -49,7 +44,6 @@
       background-color: transparent;
     }
 
-    /* Top area above thumb and below up button */
     &::-webkit-scrollbar-track-piece {
       &:start {
         background-color: transparent;
@@ -59,7 +53,6 @@
       }
     }
 
-    /* The thumb itself */
     &::-webkit-scrollbar-thumb {
       width: 50px;
       background-color: var(--color-accent);
@@ -70,12 +63,10 @@
       }
     }
 
-    /* Corner */
     &::-webkit-scrollbar-corner {
       display: none;
     }
 
-    /* Resizer */
     &::-webkit-scrollbar-resizer {
       display: none;
     }

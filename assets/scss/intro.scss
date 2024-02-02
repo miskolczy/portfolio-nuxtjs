@@ -5,10 +5,7 @@ header {
   align-content: center;
   justify-content: flex-start;
   gap: 0vmin;
-
-  //background-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, #000014 20%, #161620 50%, #00001a 90%, #000000 100%);
-  //background-position: 100% 100%;
-  //background-size: 100% 100%;
+  
   &::after {
     content: "";
     width: 100%;
@@ -25,8 +22,6 @@ header {
   margin-block: 35vmin 10vmin;
   position: sticky;
   top: 0.45em;
-  /*mix-blend-mode: color-dodge;*/
-  /*filter: brightness(200%);*/
   pointer-events: none;
   mix-blend-mode: difference;
   z-index: 3;
@@ -45,53 +40,6 @@ header {
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
-
-/*
-.about{
-  color: var(--color-accent);
-  text-align-last: center;
-  margin: auto;
-
-  mix-blend-mode: difference;
-  color: var(--color-primary);
-}*/
-/*
-
-
-.about{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  }
-*/
-
-/*
-
-.logo{
-  text-align: center;
-
-
-  & h1{
-    font-size: 3.5em;
-    line-height: 100%;
-    margin-block: 0rem;
-    filter: contrast(200%);
-    transition: all 3s;
-    transition-delay: 1s;
-    font-variation-settings: "wdth" var(--width-axis), "wght" 100;
-  }
-  & a:hover h1{
-    transition: font-variation-settings 1s;
-    cursor: s-resize;
-    font-variation-settings: "wdth" 200, "wght" 700;
-
-  }
-}*/
 
 @keyframes variable-animation {
   from {
