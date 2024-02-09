@@ -41,7 +41,7 @@
         </div>
       </div>
     </main>
-
+    
 
     <footer>
       <img :src="require(`~/assets/images/portrait.jpg`)" alt="Portrait of Jonathan Miskolczy" loading="lazy" width="2" height="3" />

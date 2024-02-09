@@ -121,11 +121,12 @@ header article p{
   }
 }
 
+
 .thumbnail {
   display: flex;
   gap: 3ch;
   z-index: 1;
-  padding: 25vmin 2ch 6ch 2ch;
+  padding: 25vmin 2ch 2ch 2ch;
 
   & figure {
     position: relative;
