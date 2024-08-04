@@ -11,11 +11,11 @@ gallery:
   - url: justified-text-on-the-web-3.jpg
     alt: Justified text on the web dorn sketch in glyphs app
   - url: justified-text-on-the-web-4.gif
+    alt: Justified text on the web dorn type variable font animation
+  - url: justified-text-on-the-web-5.gif
     alt: Justified text on the web dorn type specimen on smartphone portrait mode
-  - url: justified-text-on-the-web-5.jpg
-    alt: Justified text on the web dorn type specimen on smartphone portrait mode
-  - url: justified-text-on-the-web-6.jpg
-    alt: Justified text on the web dorn type specimen on smartphone landscape mode
+  - url: justified-text-on-the-web-6.gif
+    alt: Justified text on the web dorn type specimen portrait and landscape mode
 ---
 For my Bachelor Thesis I have designed an online newspaper for which I created a variable font that can be used in justified texts. This typeface originally was supposed to bring back the typical newspaper character to journalistic online media. While working on my typeface, I discovered general issues regarding typefaces used online. I therefore created a new and better way to display them online. You can read more about it on [Medium](https://medium.com/@miskolczy/justified-text-on-the-web-3d30a540eeb4 "").
 
