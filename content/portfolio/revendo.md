@@ -41,4 +41,5 @@ gallery:
 
 
 ---
-Revendo aims to enable sustainable usage and longevity of devices, by refurbishing and repairing them. Since the start-up’s founding in 2013, it has been experiencing great development in various disciplines. This also includes its tremendous growth in Switzerland and its expansion into the European Union in 2020. Revendo confidently embraces these changes and wants to carry them into the world. Therefore, and under my direction, the rebranding and development of the new corporate identity for Revendo took place.
+Revendo aims to enable sustainable usage and longevity of devices, by refurbishing and repairing them. Since the start-up’s founding in 2013, it has been experiencing great development in various disciplines. This also includes its tremendous growth in Switzerland and its expansion into the European Union in 2020. Revendo confidently embraces these changes and wants to carry them into the world. Therefore, and under my direction, the rebranding and development of the new corporate identity for Revendo took place. You can view the Brand Guide on [Figma](https://www.figma.com/deck/8zXL77x9NnTbxMbLU53eMt/Brand-Guide "").
+

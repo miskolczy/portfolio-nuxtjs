@@ -25,4 +25,4 @@ gallery:
   - url: fox-paw-10.jpg
     alt: Fox Paw Design System
 ---
-Paw is Revendo’s first design system for their own digital products, like the inventory management software called Fox. The design system Paw consists of components, interfaces and prototypes, which come in light and dark mode. The whole concept and design of Paw was made with Figma.
+Paw is Revendo’s first design system for their own digital products, like the inventory management software called Fox. The design system Paw consists of components, interfaces and prototypes, which come in light and dark mode. You can open the design resources in [Figma](https://www.figma.com/community/file/1443880380953865720/fox-paw-design-resources "").
