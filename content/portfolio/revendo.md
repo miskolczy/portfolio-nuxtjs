@@ -31,13 +31,9 @@ gallery:
   - url: revendo-13.jpg
     alt: Revendo store in St. Gallen
   - url: revendo-14.jpg
-    alt: Revendo unsplash plugin for figma
-  - url: revendo-15.jpg
     alt: Revendo repair service
-  - url: revendo-16.gif
-    alt: Revendo animation
-  - url: revendo-17.jpg
-    alt: Revendo illustration
+  - url: revendo-15.gif
+    alt: Revendo Brand Guide
 
 
 ---
