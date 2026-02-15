@@ -44,7 +44,7 @@ header {
 @keyframes variable-animation {
   from {
     opacity: 0;
-    color: var(--color-accent);
+    color: var(--color-secondary);
   }
 
   to {
@@ -56,7 +56,7 @@ header {
 @keyframes str-animation {
   from {
     opacity: 0;
-    color: var(--color-accent);
+    color: var(--color-secondary);
     font-variation-settings: "wdth" 50, "wght" 400;
 
   }

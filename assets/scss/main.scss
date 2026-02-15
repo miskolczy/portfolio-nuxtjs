@@ -4,9 +4,9 @@
 
 :root {
   --width-axis: 50;
-  --color-primary: #e6e6fa;
-
-  --color-accent: #66666f;
+  --color-primary: #e5e5fa;
+  --color-accent: #8f8fd7;
+  --color-secondary: #75757e;
 
   --text-blendmode: difference;
 
@@ -138,11 +138,14 @@ header article p{
       transition: all 0.5s;
       border-radius: 1em;
       background-color: var(--color-bg);
-      box-shadow: var(--color-accent) 0 -0.5px 0 0.5px;
+      /*box-shadow: var(--color-secondary) 0 -0.5px 0 0.5px;*/
+      outline: 1px solid rgba(229, 229, 250, 0.1);
+      outline-offset: -1px;
     }
     &:hover img{
     border-radius: 1.5em;
-    box-shadow: var(--color-primary) 0 0px 0 1px;
+    /*box-shadow: var(--color-primary) 0 0px 0 1px;*/
+    outline: 1px solid var(--color-primary);
     }
   }
 }

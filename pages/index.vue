@@ -56,7 +56,6 @@
 
         <div class="chip chapter">
         <a href="https://www.linkedin.com/in/miskolczy">LinkedIn</a>
-        <a href="https://www.figma.com/@miskolczy">Figma</a>
         <a href="https://medium.com/@miskolczy">Medium</a>
       </div>
     </footer>
