@@ -4,7 +4,7 @@ title: Revendo
 category: Corporate Design
 thumbnail: thumbnail-revendo.jpg
 gallery:
-  - url: revendo-1.gif
+  - url: revendo-1.svg
     alt: Revendo animation
   - url: revendo-2.svg
     alt: Revendo sell icon, repair icon, buy icon and Revendo icon

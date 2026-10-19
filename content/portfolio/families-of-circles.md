@@ -1,7 +1,7 @@
 ---
 slug: families-of-circles
 title: Families of Circles
-category: Motion Design
+category: Generative Design
 thumbnail: thumbnail-families-of-circles.jpg
 gallery:
   - url: families-of-circles-1.jpg
