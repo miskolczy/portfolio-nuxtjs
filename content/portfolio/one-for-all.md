@@ -16,6 +16,8 @@ gallery:
     alt: One for all Revendo packaging
   - url: one-for-all-6.jpg
     alt: One for all Revendo packaging
+  - url: one-for-all-7.jpg
+    alt: One for all Revendo packaging
 ---
 Together with my former colleague Mara Rubio and in collaboration with Fischer Papier AG, we designed a universal packaging for all popular smartphones at Revendo. With the new design, Revendo lowers shipping costs, reduces unused space, improves handling processes for employees and upgrades the unboxing experience for customers. Thanks to flaps for temporary closure and an integrated adhesive strip for final sealing, it is more than a shipping box. It accompanies each device through Revendo’s entire cycle: from intake, internal transfers and storage, to the customer’s mailbox, and back again as return packaging. From parcel to letter: instead of going for a bigger packaging, we tried to go minimalistic with two inset cardboard pockets that hold the device in place and absorb impact, with one also holding the charging cable separately. Made from <span class="uppercase">FSC®-</span>certified cardboard with 80 percent recycled contents, the packaging is 100 percent recyclable up to 12 times. In use since 2022, the design has proven itself in tens of thousands of shipments.
 * 70&thinsp;% flatter: from 6 to 1,8&thinsp;cm
