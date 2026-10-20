@@ -46,7 +46,7 @@ a{
   text-decoration-thickness: 0.5px;
   text-underline-offset: 0.3em;
 
-  &:hover{
+  &:hover, &:focus {
     font-variation-settings: "wdth" 200, "wght" 700;
   }
 

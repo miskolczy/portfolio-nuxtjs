@@ -10,8 +10,8 @@
       </article>
 
       <h2 class="intro chip chapter">
-        <a href="#works" class="intro">Selected works</a>
-        <a href="#contact" class="intro">Contact details</a>
+        <a href="#works" class="intro" tabindex=0>Selected works</a>
+        <a href="#contact" class="intro" tabindex=0>Contact details</a>
       </h2>
 
       <div id="works" class="intro gallery thumbnail">
@@ -36,7 +36,7 @@
         <article>
           <nuxt-content class="justified-text" :document="project" />
         </article>
-        <div class="gallery">    
+        <div class="gallery">
           <img v-for="(image, Idx) in project.gallery" :key="Idx" :src="require(`~/assets/images/${image.url}`)" :alt="'Gallery '+image.alt" loading="lazy" />
         </div>
       </div>
@@ -46,7 +46,7 @@
     <footer>
       <img :src="require(`~/assets/images/portrait.jpg`)" alt="Portrait of Jonathan Miskolczy" loading="lazy" width="2" height="3" />
      
-      <address id="contact">
+      <address id="contact" tabindex=0>
         <h5 class="uppercase">Impressum</h5>
         <h6 class="uppercase">Concept, Design and Typeface (Dorn)<br>
         Jonathan Miskolczy</h6>
@@ -55,8 +55,8 @@
       </address>
 
         <div class="chip chapter">
-        <a href="https://www.linkedin.com/in/miskolczy">LinkedIn</a>
-        <a href="https://medium.com/@miskolczy">Medium</a>
+        <a href="https://www.linkedin.com/in/miskolczy" tabindex=0>LinkedIn</a>
+        <a href="https://medium.com/@miskolczy" tabindex=0>Medium</a>
       </div>
     </footer>
     
