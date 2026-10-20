@@ -85,7 +85,7 @@ footer .chapter {
     border-radius: 2em;
     background-color: var(--color-primary);
 
-    &:focus {
+    &:focus-visible {
     outline: 1.5px solid var(--color-secondary);
     outline-offset: 2.5px;
     }

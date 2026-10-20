@@ -46,7 +46,7 @@ a{
   text-decoration-thickness: 0.5px;
   text-underline-offset: 0.3em;
 
-  &:hover, &:focus {
+  &:hover, &:focus-visible {
     font-variation-settings: "wdth" 200, "wght" 700;
   }
 
@@ -74,11 +74,14 @@ a{
     letter-spacing: 0.04em;
   }
   }
+  & ul{
+    padding-inline-start: 4ch;
+    margin-block: 0;
+  }
 }
 
 article .justified-text{
   padding-bottom: 25vmin;
-
 }
 
 .uppercase{
