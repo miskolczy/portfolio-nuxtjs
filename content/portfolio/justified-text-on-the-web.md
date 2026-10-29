@@ -5,17 +5,17 @@ category: Type Design
 thumbnail: thumbnail-justified-text-on-the-web.jpg
 gallery:
   - url: justified-text-on-the-web-1.gif
-    alt: Justified text on the web dorn sketch series with adjustments by Prof. Philipp Stamm
+    alt: Justified text on the web. Dorn sketch series with adjustments by Prof. Philipp Stamm
   - url: justified-text-on-the-web-2.gif
-    alt: Justified text on the web dorn bold letter sketches for a, d and e
+    alt: Justified text on the web. Dorn bold letter sketches for a, d and e
   - url: justified-text-on-the-web-3.jpg
-    alt: Justified text on the web dorn sketch in glyphs app
+    alt: Justified text on the web. Dorn sketch in glyphs app
   - url: justified-text-on-the-web-4.gif
     alt: Justified text on the web dorn type variable font animation
   - url: justified-text-on-the-web-5.gif
-    alt: Justified text on the web dorn type specimen on smartphone portrait mode
-  - url: justified-text-on-the-web-6.gif
-    alt: Justified text on the web dorn type specimen portrait and landscape mode
+    alt: Justified text on the web. A phone turns to landscape; the text in Dorn widens and splits into two columns.
+  - url: justified-text-on-the-web-6.svg
+    alt: Justified text on the web. The letter ‹a› in the variable font Dorn, changing weight and width.
 ---
 For my Bachelor Thesis I have designed an online newspaper for which I created a variable font that can be used in justified texts. This typeface originally was supposed to bring back the typical newspaper character to journalistic online media. While working on my typeface, I discovered general issues regarding typefaces used online. I therefore created a new and better way to display them online. You can read more about it on [Medium](https://medium.com/@miskolczy/justified-text-on-the-web-3d30a540eeb4 "").
 
